@@ -5,7 +5,7 @@ function Path({ path }) {
     <ul className={classes.Path}>
       {path.map((data) => (
         <li>
-          <a>{data}</a>>
+          <a href="#data">{data}</a>>
         </li>
       ))}
     </ul>

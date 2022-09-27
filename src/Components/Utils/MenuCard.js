@@ -10,14 +10,14 @@ function MenuCard({ heading, options }) {
       {options.map((data, id) => (
         <li
           key={id}
-          className={selected == id && classes.sel}
+          className={selected === id && classes.sel}
           onClick={() => {
             setSelected(id);
           }}
         >
           <a href="#data">
             <p>{data}</p>
-            {selected == id && (
+            {selected === id && (
               <CloseOutlinedIcon
                 sx={{ mb: "-0.5rem", color: "white", alignSelf: "center" }}
                 fontSize="20px"

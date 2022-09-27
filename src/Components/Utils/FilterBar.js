@@ -8,7 +8,7 @@ function FilterBar({ heading, qty, tags }) {
         <h3>{heading}</h3>
         <h4>({qty} products)</h4>
       </div>
-      {tags.length != 0 && (
+      {tags.length !== 0 && (
         <div className={classes.tags}>
           {tags.map((data) => (
             <div className={classes.tag}>
@@ -16,7 +16,9 @@ function FilterBar({ heading, qty, tags }) {
               <CloseOutlinedIcon sx={{ alignSelf: "center" }} fontSize="20px" />
             </div>
           ))}
-          <a className={classes.link}>Remove all</a>
+          <a className={classes.link} href="#remove">
+            Remove all
+          </a>
         </div>
       )}
     </div>
