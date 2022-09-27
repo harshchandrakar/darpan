@@ -1,0 +1,39 @@
+.FilterBar{
+    display: flex;
+    margin-left: 0.7rem;
+}
+.heading{
+    display: flex;
+    margin-right: 1rem;
+    align-self: center;
+    gap: 7px;
+    font-weight: 100;
+}
+.heading h4{
+    font-size: 14px;
+    align-self: center;
+}
+.tag{
+    display: flex;
+    background-color: #00a69a;
+    height: 1.5rem;
+    padding: 5px;
+    align-self: center;
+    border-radius: 5px;
+    color: white;
+    gap: 5px;
+}
+.tag h5{
+    align-self: center;
+}
+.tags{
+    display: flex;
+    gap: 10px;
+}
+.link{
+    align-self: center;
+    text-decoration: underline;
+    color: red;
+    font-size: 12px;
+    cursor: pointer;
+}

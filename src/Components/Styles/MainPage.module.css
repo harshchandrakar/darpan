@@ -1,0 +1,16 @@
+.gridContainer{
+    display: grid;
+    grid-template-areas:
+      'menu main main main main main ';
+    gap: 0;
+  
+    padding: 10px;
+}
+.menu {
+    grid-area: menu;
+}
+.main{
+    grid-area: main;
+/* display: flex; */
+text-align: left;
+}

@@ -1,0 +1,18 @@
+
+  .input1 {
+    text-align: right;
+    background-color: #ffffff;
+    /* align-self: right; */
+    width: 400px;
+    height: 2.5rem;
+    margin-left: 0.7rem;
+    margin-top: 0.5rem;
+    padding-right: 0;
+  }
+  .input1::-ms-input-placeholder {
+    align-self: right;
+  }
+  .searchbtn:hover{
+    background-color: #00a69a;
+  }
+ 

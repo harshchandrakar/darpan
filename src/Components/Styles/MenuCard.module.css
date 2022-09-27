@@ -1,0 +1,43 @@
+.MenuCard{
+    list-style: none;
+    text-align: left;
+    width: 180px;
+    margin-left: 10px;
+    padding: 0;
+}
+.MenuCard li a{
+    margin:0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+
+}
+.MenuCard li a p{
+    margin: 0;
+    align-self: center;
+}
+.sel a p {
+    color: white;
+}
+.MenuCard li{
+    padding-left: 1rem;
+    margin-top: 7px;
+}
+.heading{
+    background-color: gray;
+    padding:  3px 0 7px 0;
+    text-align: center;   
+}
+.sel{
+    background-color: #00a69a;
+    color: white;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+.sel a{
+    color: white;
+   
+}

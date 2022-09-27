@@ -1,0 +1,42 @@
+.details img{
+    height: 150px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.MainCard{
+    display: inline-block;
+    border: 1px solid gray;
+    width: 250px;
+    border-radius: 5px;
+    margin: 10px 5px;
+    text-align: center;
+
+}
+.price{
+ font-size: 15px;
+ color: gray;
+ margin: 0;
+}
+.pricing h5{
+    margin: 0;
+}
+.price span{
+    color:#750b0b ;
+}
+.address{
+font-size: 12px;
+color: gray;
+margin: 0;
+}
+.btn {
+    position: relative;
+    width: 100%;
+    color:#00a69a;
+    border-radius: 0  0 5px  5px;
+    padding: 10px;
+    border-top: 1px solid gray;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px solid #750b0b  ;
+    margin-top: 1rem;
+}
